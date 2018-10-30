@@ -10,7 +10,7 @@ import logging
 from datetime import datetime
 import sys
 import traceback
-from urllib import parse
+from six.moves.urllib import parse
 import requests
 import re
 from requests_ntlm import HttpNtlmAuth

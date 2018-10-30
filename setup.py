@@ -11,7 +11,8 @@ setup(name='IBMQuantumExperience',
       license='Apache-2.0',
       install_requires=[
           'requests',
-          'requests_ntlm'
+          'requests_ntlm',
+          'six'
       ],
       classifiers=(
           'Development Status :: 5 - Production/Stable',
